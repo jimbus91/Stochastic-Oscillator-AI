@@ -90,7 +90,7 @@ else:
 
     axs[0].plot(last_year.index, last_year['Close'], label='Actual', color='blue')
 
-    axs[0].set_title(stock_ticker + " Stochastic Oscillator Price Prediction")
+    axs[0].set_title(stock_ticker.upper() + " Stochastic Oscillator Price Prediction")
     axs[0].set_xticks([])
     axs[0].legend()
 
